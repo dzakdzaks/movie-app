@@ -1,8 +1,8 @@
 package com.dzakdzaks.movieapp.domain.usecase
 
 import com.dzakdzaks.movieapp.domain.repository.MovieRepository
-import com.dzakdzaks.movieappcore.model.movie.detail.MovieDetail
-import com.dzakdzaks.movieappcore.network.response.WrapperResponse
+import com.dzakdzaks.movieapp.common.model.movie.detail.MovieDetail
+import com.dzakdzaks.movieapp.common.network.response.WrapperResponse
 import javax.inject.Inject
 
 class FetchDetailMovieUseCase @Inject constructor(

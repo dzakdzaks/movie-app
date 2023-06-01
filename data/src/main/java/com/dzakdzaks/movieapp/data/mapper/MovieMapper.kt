@@ -11,18 +11,18 @@ import com.dzakdzaks.movieapp.data.remote.model.movie.video.MovieVideoData
 import com.dzakdzaks.movieapp.data.remote.model.movie.video.ResultMovieVideoData
 import com.dzakdzaks.movieapp.data.remote.model.pagination.DatesData
 import com.dzakdzaks.movieapp.data.remote.model.pagination.PaginationResultData
-import com.dzakdzaks.movieappcore.ext.orEmpty
-import com.dzakdzaks.movieappcore.model.movie.Movie
-import com.dzakdzaks.movieappcore.model.movie.detail.Genre
-import com.dzakdzaks.movieappcore.model.movie.detail.MovieDetail
-import com.dzakdzaks.movieappcore.model.movie.image.MovieImage
-import com.dzakdzaks.movieappcore.model.movie.image.MovieImageBackdrop
-import com.dzakdzaks.movieappcore.model.movie.review.AuthorDetails
-import com.dzakdzaks.movieappcore.model.movie.review.MovieReview
-import com.dzakdzaks.movieappcore.model.movie.video.MovieVideo
-import com.dzakdzaks.movieappcore.model.movie.video.ResultMovieVideo
-import com.dzakdzaks.movieappcore.model.pagination.Dates
-import com.dzakdzaks.movieappcore.model.pagination.PaginationResult
+import com.dzakdzaks.movieapp.common.ext.orEmpty
+import com.dzakdzaks.movieapp.common.model.movie.Movie
+import com.dzakdzaks.movieapp.common.model.movie.detail.Genre
+import com.dzakdzaks.movieapp.common.model.movie.detail.MovieDetail
+import com.dzakdzaks.movieapp.common.model.movie.image.MovieImage
+import com.dzakdzaks.movieapp.common.model.movie.image.MovieImageBackdrop
+import com.dzakdzaks.movieapp.common.model.movie.review.AuthorDetails
+import com.dzakdzaks.movieapp.common.model.movie.review.MovieReview
+import com.dzakdzaks.movieapp.common.model.movie.video.MovieVideo
+import com.dzakdzaks.movieapp.common.model.movie.video.ResultMovieVideo
+import com.dzakdzaks.movieapp.common.model.pagination.Dates
+import com.dzakdzaks.movieapp.common.model.pagination.PaginationResult
 
 fun PaginationResultData<MovieData>?.toPaginationResultMovie(): PaginationResult<Movie> =
     PaginationResult(

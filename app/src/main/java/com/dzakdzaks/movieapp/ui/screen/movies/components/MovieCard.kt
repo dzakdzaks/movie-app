@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.dzakdzaks.movieapp.ui.component.rememberBrokenImage
-import com.dzakdzaks.movieappcore.model.movie.Movie
+import com.dzakdzaks.movieapp.common.model.movie.Movie
 
 @Composable
 fun MovieCard(context: Context, movie: Movie, onClick: (Movie) -> Unit) {

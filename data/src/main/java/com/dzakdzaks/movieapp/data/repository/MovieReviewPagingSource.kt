@@ -3,8 +3,8 @@ package com.dzakdzaks.movieapp.data.repository
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.dzakdzaks.movieapp.domain.usecase.FetchReviewMoviesUseCase
-import com.dzakdzaks.movieappcore.model.movie.review.MovieReview
-import com.dzakdzaks.movieappcore.network.response.WrapperResponse
+import com.dzakdzaks.movieapp.common.model.movie.review.MovieReview
+import com.dzakdzaks.movieapp.common.network.response.WrapperResponse
 
 class MovieReviewPagingSource(
     private val fetchReviewMoviesUseCase: FetchReviewMoviesUseCase,

@@ -36,7 +36,7 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.dzakdzaks.movieapp.ui.component.rememberBrokenImage
 import com.dzakdzaks.movieapp.ui.screen.detail.DetailState
-import com.dzakdzaks.movieappcore.model.movie.video.ResultMovieVideo
+import com.dzakdzaks.movieapp.common.model.movie.video.ResultMovieVideo
 
 @Composable
 fun ContentTrailer(

@@ -12,7 +12,6 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
-import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -43,13 +42,15 @@ import com.dzakdzaks.movieapp.ui.screen.movies.components.ErrorItem
 import com.dzakdzaks.movieapp.ui.screen.movies.components.LoadingItem
 import com.dzakdzaks.movieapp.ui.screen.movies.components.MovieCard
 import com.dzakdzaks.movieapp.ui.screen.movies.components.PullRefreshBox
-import com.dzakdzaks.movieappcore.model.movie.Movie
+import com.dzakdzaks.movieapp.common.model.movie.Movie
 import com.ramcosta.composedestinations.annotation.Destination
+import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterialApi::class)
-@Destination(start = true)
+@OptIn(ExperimentalMaterial3Api::class)
+@RootNavGraph(start = true)
+@Destination
 @Composable
 fun MovieScreen(
     navigator: DestinationsNavigator,

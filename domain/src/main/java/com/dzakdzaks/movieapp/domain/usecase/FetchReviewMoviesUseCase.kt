@@ -1,9 +1,9 @@
 package com.dzakdzaks.movieapp.domain.usecase
 
 import com.dzakdzaks.movieapp.domain.repository.MovieRepository
-import com.dzakdzaks.movieappcore.model.movie.review.MovieReview
-import com.dzakdzaks.movieappcore.model.pagination.PaginationResult
-import com.dzakdzaks.movieappcore.network.response.WrapperResponse
+import com.dzakdzaks.movieapp.common.model.movie.review.MovieReview
+import com.dzakdzaks.movieapp.common.model.pagination.PaginationResult
+import com.dzakdzaks.movieapp.common.network.response.WrapperResponse
 import javax.inject.Inject
 
 class FetchReviewMoviesUseCase @Inject constructor(

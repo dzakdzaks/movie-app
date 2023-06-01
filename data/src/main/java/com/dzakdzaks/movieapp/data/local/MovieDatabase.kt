@@ -2,8 +2,8 @@ package com.dzakdzaks.movieapp.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.dzakdzaks.movieappcore.model.movie.Movie
-import com.dzakdzaks.movieappcore.model.movie.RemoteKeys
+import com.dzakdzaks.movieapp.common.model.movie.Movie
+import com.dzakdzaks.movieapp.common.model.movie.RemoteKeys
 
 @Database(
     entities = [Movie::class, RemoteKeys::class],

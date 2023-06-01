@@ -12,7 +12,7 @@ import com.dzakdzaks.movieapp.domain.usecase.FetchImageMovieUseCase
 import com.dzakdzaks.movieapp.domain.usecase.FetchReviewMoviesUseCase
 import com.dzakdzaks.movieapp.domain.usecase.FetchTrailerMovieUseCase
 import com.dzakdzaks.movieapp.ui.screen.navArgs
-import com.dzakdzaks.movieappcore.network.response.WrapperResponse
+import com.dzakdzaks.movieapp.common.network.response.WrapperResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow

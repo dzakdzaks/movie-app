@@ -23,8 +23,8 @@ import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.itemContentType
 import androidx.paging.compose.itemKey
-import com.dzakdzaks.movieappcore.ext.readableDateTime
-import com.dzakdzaks.movieappcore.model.movie.review.MovieReview
+import com.dzakdzaks.movieapp.common.ext.readableDateTime
+import com.dzakdzaks.movieapp.common.model.movie.review.MovieReview
 
 @Composable
 fun ContentReviews(

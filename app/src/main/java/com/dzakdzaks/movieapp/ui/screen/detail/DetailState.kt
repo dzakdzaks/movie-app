@@ -1,8 +1,8 @@
 package com.dzakdzaks.movieapp.ui.screen.detail
 
-import com.dzakdzaks.movieappcore.model.movie.detail.MovieDetail
-import com.dzakdzaks.movieappcore.model.movie.image.MovieImageBackdrop
-import com.dzakdzaks.movieappcore.model.movie.video.ResultMovieVideo
+import com.dzakdzaks.movieapp.common.model.movie.detail.MovieDetail
+import com.dzakdzaks.movieapp.common.model.movie.image.MovieImageBackdrop
+import com.dzakdzaks.movieapp.common.model.movie.video.ResultMovieVideo
 
 data class DetailState(
     val movieDetail: MovieDetail = MovieDetail(),

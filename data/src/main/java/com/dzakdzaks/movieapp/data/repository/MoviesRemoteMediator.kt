@@ -7,9 +7,9 @@ import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
 import com.dzakdzaks.movieapp.data.local.MoviesDatabase
 import com.dzakdzaks.movieapp.domain.usecase.FetchNowPlayingMoviesUseCase
-import com.dzakdzaks.movieappcore.model.movie.Movie
-import com.dzakdzaks.movieappcore.model.movie.RemoteKeys
-import com.dzakdzaks.movieappcore.network.response.WrapperResponse
+import com.dzakdzaks.movieapp.common.model.movie.Movie
+import com.dzakdzaks.movieapp.common.model.movie.RemoteKeys
+import com.dzakdzaks.movieapp.common.network.response.WrapperResponse
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
